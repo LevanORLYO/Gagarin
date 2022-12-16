@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+    margin-bottom: 100px;
+    margin-top: 200px;
+}
+
+.header{
+   color: rgb(250, 250, 250);
+}
+
+
+a{
+   color:rgb(0, 0, 0);
+   text-decoration: none;
+   font-size: 40px;
+   border: 1px solid black;
+   background-color: rgba(5, 34, 34, 0.198);
+   padding: 2px 30px;
+   border-radius: 7px;
+   transition: .7s;
+}
+
+a:hover{
+    background-color: aliceblue;
+    color: black;
+}
+
+img{
+    width: 100%;
+    margin-bottom: 10px;
+    /* margin-left: 300px; */
+    /* margin: 0 auto; */
+    /* display: block;  */
+    /* position: absolute; */
+    /* top: 0; */
+    /* right: 0; */
+}
+body{
+    /* background-image: url('https://avatars.mds.yandex.net/i?id=2c1f52dcc54c91c6ed71b73f2dccb65fb4593678-7755899-images-thumbs&n=13'); */
+    /* background-repeat: no-repeat; */
+    /* background-position: center; */
+    /* background-size: cover; */
+    /* background-position: center; */
+    /* background-repeat: no-repeat; */
+    /* background: #f8ffe8; */
+    /* background: linear-gradient(to right, #460d61,#10196e 33%,#6315bd); */
+    /* background-size: 30px 30px; */
+    /* background: #12077a; */
+    /* background: linear-gradient(#0062ff 50%, #1900ff 50%); */
+    /* background-size: 50px 50px; */
+    background: linear-gradient(transparent 50%, rgba(0, 183, 255, 0.2) 50%), 
+                linear-gradient(90deg, rgba(1, 251, 218, 0.2) 50%, transparent 50%);
+    background-size: 40px 40px;
+}
+.header{
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    height: 70px;
+    background-color: rgba(169, 169, 169, 0.233);
+}
+.header_menu{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    align-items: center;
+    height: 100%;
+    color: black;
+}
+.works{
+    width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid rgba(119, 0, 255, 0.541);
+    border-radius: 15px;
+    background: rgba(119, 0, 255, 0.377);
+    margin-bottom: 100px;
+}
+.works p{
+    color: white;
+    text-align: center;
+}
+.Photo{
+    position: fixed;
+    width: 451px;
+    top: 100px;
+    right: 2150px;
+}
+.photo{
+    position: fixed;
+    width: 600px;
+    top: 54px;
+    right: 10px;
+    left: 2000px;
+}
+.shatl{
+    position: fixed;
+    width: 600px;
+    top: 779px;
+    right: 2000px;
+}
