@@ -87,26 +87,25 @@ body{
 }
 .Photo{
     position: fixed;
-    width: 451px;
-    top: 100px;
-    right: 2150px;
+    width: 350px;
+    top: 113px;
+    left: 100px;
 }
 .photo{
     position: fixed;
-    width: 600px;
-    top: 54px;
-    right: 10px;
-    left: 2000px;
+    width: 376px;
+    top: 65px;
+    right: 41px;
 }
 .shatl{
     position: fixed;
-    width: 600px;
-    top: 779px;
-    right: 2000px;
+    width: 400px;
+    top: 480px;
+    left: 38px;
 }
 .gagar{
     position: fixed;
-    width: 500px;
-    top: 1000px;
-    right: 480px;
+    width: 200px;
+    top: 680px;
+    right: 400px;
 }
